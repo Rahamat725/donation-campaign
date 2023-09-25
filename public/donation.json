@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "img": "image1.jpg",
+      "title": "Product 1",
+      "category": "Electronics",
+      "category_bg": "#FF5733",
+      "card_bg": "#E0E0E0",
+      "text_color": "#333333",
+      "description": "A high-quality electronic product",
+      "price": "199.99"
+    },
+    {
+      "id": 2,
+      "img": "image2.jpg",
+      "title": "Product 2",
+      "category": "Clothing",
+      "category_bg": "#55A630",
+      "card_bg": "#F0F0F0",
+      "text_color": "#222222",
+      "description": "Fashionable clothing item",
+      "price": "49.99"
+    },
+    {
+      "id": 3,
+      "img": "image3.jpg",
+      "title": "Product 3",
+      "category": "Home Decor",
+      "category_bg": "#FFC107",
+      "card_bg": "#FAFAFA",
+      "text_color": "#444444",
+      "description": "Elegant home decor piece",
+      "price": "79.99"
+    },
+    {
+      "id": 4,
+      "img": "image4.jpg",
+      "title": "Product 4",
+      "category": "Toys",
+      "category_bg": "#03A9F4",
+      "card_bg": "#F8F8F8",
+      "text_color": "#555555",
+      "description": "Fun and interactive toy",
+      "price": "29.99"
+    },
+    {
+      "id": 5,
+      "img": "image5.jpg",
+      "title": "Product 5",
+      "category": "Books",
+      "category_bg": "#4CAF50",
+      "card_bg": "#FCFCFC",
+      "text_color": "#666666",
+      "description": "Bestselling book",
+      "price": "12.99"
+    },
+    {
+      "id": 6,
+      "img": "image6.jpg",
+      "title": "Product 6",
+      "category": "Beauty",
+      "category_bg": "#FF9800",
+      "card_bg": "#F5F5F5",
+      "text_color": "#777777",
+      "description": "Beauty and skincare product",
+      "price": "29.99"
+    },
+    {
+      "id": 7,
+      "img": "image7.jpg",
+      "title": "Product 7",
+      "category": "Sports",
+      "category_bg": "#9C27B0",
+      "card_bg": "#F9F9F9",
+      "text_color": "#888888",
+      "description": "Sports equipment",
+      "price": "149.99"
+    },
+    {
+      "id": 8,
+      "img": "image8.jpg",
+      "title": "Product 8",
+      "category": "Furniture",
+      "category_bg": "#795548",
+      "card_bg": "#F6F6F6",
+      "text_color": "#999999",
+      "description": "Stylish furniture piece",
+      "price": "249.99"
+    },
+    {
+      "id": 9,
+      "img": "image9.jpg",
+      "title": "Product 9",
+      "category": "Kitchen",
+      "category_bg": "#607D8B",
+      "card_bg": "#F4F4F4",
+      "text_color": "#AAAAAA",
+      "description": "Kitchen appliance",
+      "price": "99.99"
+    },
+    {
+      "id": 10,
+      "img": "image10.jpg",
+      "title": "Product 10",
+      "category": "Jewelry",
+      "category_bg": "#FF5722",
+      "card_bg": "#F3F3F3",
+      "text_color": "#BBBBBB",
+      "description": "Exquisite jewelry item",
+      "price": "199.99"
+    },
+    {
+      "id": 11,
+      "img": "image11.jpg",
+      "title": "Product 11",
+      "category": "Gaming",
+      "category_bg": "#2196F3",
+      "card_bg": "#F2F2F2",
+      "text_color": "#CCCCCC",
+      "description": "Gaming console",
+      "price": "299.99"
+    },
+    {
+      "id": 12,
+      "img": "image12.jpg",
+      "title": "Product 12",
+      "category": "Music",
+      "category_bg": "#E91E63",
+      "card_bg": "#F1F1F1",
+      "text_color": "#DDDDDD",
+      "description": "Musical instrument",
+      "price": "149.99"
+    }
+  ]
+  
