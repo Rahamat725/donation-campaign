@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveDonationDataTolocalStorage } from "../../utility/localstorage";
 
 
 const CardDetails = () => {
@@ -14,12 +15,19 @@ const CardDetails = () => {
  
     console.log(detail);
     const {img, description,title,price,text_color} = detail;
+
+
+    const handleStoredData = () =>{
+        saveDonationDataTolocalStorage(intId)
+    }
+
     return (
         <div className=" mt-5">
            <div>
             <img className=" w-[98%] mx-auto lg:w-[100%] h-[40vh] lg:h-[60vh]" src={img} alt="" />
             <div className="bg-black  bg-opacity-50 relative bottom-20 p-4">
-                <button style={{backgroundColor:text_color}} className="btn text-white  text-base">Donate ${price}</button>
+                <button onClick={handleStoredData} 
+                style={{backgroundColor:text_color}} className="btn text-white  text-base">Donate ${price}</button>
             </div>
            </div>
            <div className=" w-[98%] mx-auto space-y-2 -mt-10">
