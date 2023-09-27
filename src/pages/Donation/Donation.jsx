@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredDonationData } from "../../utility/localstorage";
 import DonatedCard from "../../MainLayout/components/DonatedCard/DonatedCard";
@@ -8,9 +8,11 @@ const Donation = () => {
     const [detail, setDetail] =useState([]);
     const donations = useLoaderData();
     const [dataLength, setDataLength] = useState(4);
+    
 
     useEffect(()=>{
         const storedId = getStoredDonationData();
+        
        const storedInfo = []
         for(const id of storedId){
             const data = donations.find(findInfo => findInfo.id === id)

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 
 const Home = () => {
-    // const [cards, setCards] = useState([]);
+    const [searchcards, setCards] = useState([]);
  
     const cards = useLoaderData();
     // setCards(Allcards)
@@ -17,11 +17,12 @@ const Home = () => {
         const inputValue = e.target.name.value;
         const newValue = cards.filter(findName => findName.category.toLowerCase().includes(inputValue.toLowerCase()));
         console.log(newValue)
+        setCards(newValue)
     }
     return (
         <div className="space-y-4">
             <Banner handleSearch={handleSearch}></Banner>
-            <DonationCards cards={cards}></DonationCards>
+            <DonationCards cards={cards} searchcards={searchcards}></DonationCards>
         </div>
     );
 };

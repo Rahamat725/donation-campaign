@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "img": "https://i.ibb.co/TRSH0MT/Health.png",
+    "img": "https://i.ibb.co/GQp7tgy/h-2.webp",
     "title": "Achieving Optimal Health",
     "category": "Health",
     "category_bg": "#c7cdd8",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "img": "https://i.ibb.co/DMJy2wL/Education.png",
+    "img": "https://i.ibb.co/PYxZfRR/edu-2.jpg",
     "title": " A Guide to Education Success",
     "category": "Education",
     "category_bg": "#dbd2d2",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "img": "https://i.ibb.co/fx3gVQX/Clothing.png",
+    "img": "https://i.ibb.co/L9j5ZPt/clothing-2.jpg",
     "title": "A Guide to Winter Clothing",
     "category": "Clothing",
     "category_bg": "#5a5e56",
@@ -78,18 +78,19 @@
   },
   {
     "id": 8,
-    "img": "https://i.ibb.co/k9Bvps8/Food.png",
+    "img": "https://i.ibb.co/9rHNthn/food-2.jpg",
     "title": "The Power of Food Donation",
     "category": "Food",
     "category_bg": "#e2c1b7",
     "card_bg": "#705d57",
     "text_color": "#ef6237",
-    "description": "Everyone has a right to healthy and affordable food. Good food for all means ensuring that people experiencing financial crisis or food poverty can access and afford a healthy diet.",
+    "description": "The Power of Food Donation is a transformative force that tackles hunger and waste. By redirecting surplus food from businesses and individuals to those in need, it nourishes communities and reduces food insecurity. This simple yet impactful act not only provides meals but also promotes social cohesion and environmental sustainability, emphasizing the profound influence of food in shaping a better world.",
+  
     "price": "29.99"
   },
   {
     "id": 9,
-    "img": "https://i.ibb.co/TRSH0MT/Health.png",
+    "img": "https://i.ibb.co/yhBtCf5/h-3.webp",
     "title": "Body for Vibrant Living",
     "category": "Health",
     "category_bg": "#c7cdd8",
@@ -100,7 +101,7 @@
   },
   {
     "id": 10,
-    "img": "https://i.ibb.co/DMJy2wL/Education.png",
+    "img": "https://i.ibb.co/s9srVgh/edu-3.jpg",
     "title": " A Path to Lifelong Learning",
     "category": "Education",
     "category_bg": "#dbd2d2",
@@ -111,7 +112,7 @@
   },
   {
     "id": 11,
-    "img": "https://i.ibb.co/fx3gVQX/Clothing.png",
+    "img": "https://i.ibb.co/nDfZbNm/clothing-4.jpg",
     "title": " Clothing for a Better World",
     "category": "Clothing",
     "category_bg": "#5a5e56",
@@ -122,13 +123,13 @@
   },
   {
     "id": 12,
-    "img": "https://i.ibb.co/k9Bvps8/Food.png",
+    "img": "https://i.ibb.co/9gYg23y/food-4.jpg",
     "title": "Food Donations in Action",
     "category": "Food",
     "category_bg": "#e2c1b7",
     "card_bg": "#705d57",
     "text_color": "#ef6237",
-    "description": "Everyone has a right to healthy and affordable food. Good food for all means ensuring that people experiencing financial crisis or food poverty can access and afford a healthy diet.",
+    "description": "Food Donations in Action is a charitable initiative focused on addressing food insecurity. It collects surplus food from various sources, including restaurants and grocery stores, and redistributes it to those in need through local food banks and shelters. This program not only reduces food waste but also provides essential nutrition to disadvantaged communities, fostering a more sustainable and compassionate society.",
     "price": "29.99"
   }
 ]
