@@ -17,7 +17,7 @@ const DonatedCard = ({donatedDetails}) => {
     return (
         <div>
            
-           <Card style={{backgroundColor:card_bg}} className="w-full max-w-[48rem] flex-row">
+           <Card style={{backgroundColor:card_bg}} className="w-full max-w-[48rem] flex-row gap-4  rounded-md">
       <CardHeader
         shadow={false}
         floated={false}
@@ -26,21 +26,21 @@ const DonatedCard = ({donatedDetails}) => {
         <img
           src={img}
           alt="card-image"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover rounded-md"
         />
       </CardHeader>
       <CardBody>
-        <Typography  variant="h6" color="gray" className="mb-4  uppercase ">
-         <span style={{backgroundColor:category_bg, color:text_color}} className="p-2 rounded"> {category}</span>
+        <Typography  variant="h6" color="gray" className="mb-4 mt-4 uppercase ">
+         <span style={{backgroundColor:category_bg, color:text_color}} className="p-2  rounded"> {category}</span>
         </Typography>
-        <Typography style={{color:text_color}} variant="h4" color="blue-gray" className="mb-2">
+        <Typography style={{color:text_color}} variant="h4" color="blue-gray" className="mb-2 text-xl">
           {title}
         </Typography>
         <Typography  color="gray" className="mb-8 font-normal">
             <span style={{backgroundColor:category_bg}} className="p-1 rounded-lg">${price}</span>
         </Typography>
         <a href="#" className="inline-block">
-          <Link to={`/cardDetails/${id}`}  style={{backgroundColor:text_color }} variant="text" className="flex items-center btn btn-info text-white">
+          <Link to={`/cardDetails/${id}`}  style={{backgroundColor:text_color }} variant="text" className="flex mb-2 items-center btn btn-info text-white">
             View Details
             <svg
               xmlns="http://www.w3.org/2000/svg"
